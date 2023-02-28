@@ -1,20 +1,26 @@
 <script setup>
-import ISC from './components/ISC.vue'
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Texto from './components/Texto.vue'
+import logo from './components/logo.vue'
+import pregunta from './components/pregunta.vue'
+import pregunta2 from './components/pregunta2.vue'
+import pregunta3 from './components/pregunta3.vue'
+import card from './components/card.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <!--<img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />-->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <logo/>
+      <Texto />
     </div>
   </header>
-
   <main>
-    <TheWelcome />
+    <pregunta/>
+    <pregunta2/>
+    <pregunta3/>
+    <card/>
   </main>
 </template>
 
