@@ -52,3 +52,10 @@ header {
   }
 }
 </style>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
+* {
+  font-family: "Patrick Hand SC", cursive;
+}
+</style>
