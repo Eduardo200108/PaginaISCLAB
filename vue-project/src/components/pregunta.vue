@@ -1,7 +1,7 @@
 <template>
 
 
-<center>
+<left>
 <font size="30" color=#010055>¿Qué hacemos en isclab?</font>
 <p>
     <font color=#7400AA>° Desarrollamos aplicaciones con fines de práctica, investigación y responsabilidad social.</font>
@@ -14,7 +14,7 @@
 <font color=#7400AA>° Compártelo con nosotros y buscaremos la manera de ayudarte.</font>
 </p>
 
-</center>
+</left>
 </template>
 
 
